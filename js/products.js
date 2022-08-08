@@ -7,7 +7,7 @@ let products = [
     {
         id : 2,
         name : 'mango',
-        price: 200
+        price: 1200
     },
     {
         id : 3,
