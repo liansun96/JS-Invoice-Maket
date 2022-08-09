@@ -18,7 +18,7 @@
                     <div class="col">
                         <h2 class="text-center mt-5 mb-4">Invoice Maker</h2>
                     </div>
-                    <form action="" class="mb-4" id="inputForm">
+                    <form action="" class="mb-4 p-none" id="inputForm">
                         <div class="row align-items-end">
                             <div class="col">
                                 <label for="items" class="form-label">Select Items</label>
@@ -51,7 +51,12 @@
                             </tr>
                         </tfoot>
                     </table>
-                    
+                    <div class="text-end p-none">
+                        <button class="btn btn-outline-primary" onclick="print()">
+                            <i class="bi bi-printer"></i>
+                            print
+                        </button>
+                    </div>                    
                 </div>
             </div>
         </div>

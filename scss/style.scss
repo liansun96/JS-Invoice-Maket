@@ -4,4 +4,21 @@ $primary : #8e3658;
 $font-family-sans-serif : 'Titillium Web', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules//bootstrap-icons/font/bootstrap-icons.scss"
+@import "../node_modules//bootstrap-icons/font/bootstrap-icons.css";
+
+
+.del-btn{
+    display: none;
+    transition: 250ms;
+    font-size: smaller;
+}
+
+#rows tr:hover .del-btn{
+    display: block;
+}
+
+@media print {
+    .p-none{
+        display: none;
+    }
+}
